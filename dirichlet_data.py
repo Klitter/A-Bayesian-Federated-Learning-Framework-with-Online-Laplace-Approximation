@@ -5,9 +5,6 @@ from copy import deepcopy
 from cnn_lab.autoaugment import Cutout, CIFAR10Policy
 import random
 
-random.seed(0)
-np.random.seed(0)
-
 class DatasetSplit(Dataset):
     """An abstract Dataset class wrapped around Pytorch Dataset class.
     """
